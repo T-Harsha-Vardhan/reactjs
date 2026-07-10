@@ -1,11 +1,11 @@
-import Greeting from "./components/Greeting";
-import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
     <div>
-      <Greeting />
-      <ProductInfo />
+      <UserList />
+      <ProductList />
     </div>
   );
 };
