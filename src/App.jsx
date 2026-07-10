@@ -1,16 +1,7 @@
-import Footer from "./components/Footer.jsx";
-import Greet from "./components/Greet.jsx";
-import Header from "./components/Header.jsx";
-import MainContent from "./components/MainContent.jsx";
+import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
-  );
+  return <WelcomeMessage />;
 };
 
 export default App;
