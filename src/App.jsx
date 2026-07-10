@@ -1,13 +1,16 @@
-import StyledCard from "./components/StyledCard";
-import ProfileCard from "./components/ProfileCard";
-import IconComponent from "./components/IconComponent";
+import "./App.css";
+import Counter from "./components/Counter";
+import Profile from "./components/Profile";
+import TodoList from "./components/TodoList";
+import ShoppingList from "./components/ShoppingList";
 
 const App = () => {
   return (
-    <div>
-      <StyledCard />
-      <ProfileCard />
-      <IconComponent />
+    <div className="bg-lightblue-50 h-screen w-screen">
+      {/* <Counter /> */}
+      {/* <TodoList /> */}
+      {/* <Profile /> */}
+      <ShoppingList />
     </div>
   );
 };
