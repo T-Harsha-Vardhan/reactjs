@@ -1,16 +1,14 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import Profile from "./components/Profile";
-import TodoList from "./components/TodoList";
-import ShoppingList from "./components/ShoppingList";
+import BasicEffect from "./components/BasicEffect";
+import CounterEffect from "./components/CounterEffect";
+import FetchDataEffect from "./components/FetchDataEffect";
 
 const App = () => {
   return (
     <div className="bg-lightblue-50 h-screen w-screen">
-      {/* <Counter /> */}
-      {/* <TodoList /> */}
-      {/* <Profile /> */}
-      <ShoppingList />
+      {/* <BasicEffect /> */}
+      {/* <CounterEffect /> */}
+      <FetchDataEffect />
     </div>
   );
 };
