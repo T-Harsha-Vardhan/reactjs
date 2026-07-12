@@ -1,14 +1,12 @@
 import "./App.css";
-import BasicEffect from "./components/BasicEffect";
-import CounterEffect from "./components/CounterEffect";
-import FetchDataEffect from "./components/FetchDataEffect";
+import UpdateUser from "./components/UpdateUser";
+import UserProfile from "./components/UserProfile";
 
 const App = () => {
   return (
     <div className="bg-lightblue-50 h-screen w-screen">
-      {/* <BasicEffect /> */}
-      {/* <CounterEffect /> */}
-      <FetchDataEffect />
+      <UserProfile />
+      <UpdateUser />
     </div>
   );
 };
