@@ -1,12 +1,10 @@
 import "./App.css";
-import UpdateUser from "./components/UpdateUser";
-import UserProfile from "./components/UserProfile";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div className="bg-lightblue-50 h-screen w-screen">
-      <UserProfile />
-      <UpdateUser />
+      <Counter />
     </div>
   );
 };
